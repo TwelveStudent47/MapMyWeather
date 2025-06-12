@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 // Your OpenWeather API key
-const yourOpenWeatherApiKey = "2eae25a586ae341138d4aa0425c0bee7";
+const yourOpenWeatherApiKey = "YOUR_API_KEY";
 let isSearchUsed = null; // Track if the search form was used
 
 // Handle GET requests to the root URL ("/")
